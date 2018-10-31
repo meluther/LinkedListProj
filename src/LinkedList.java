@@ -66,10 +66,6 @@ public class LinkedList
         return new LinkedListIterator();
     }
 
-    /*********************************************************
-    Add your methods here
-    *********************************************************/
-
     // concatenates strings in linked list and returns a string with brackets
     // and spaces
     public String toString()
@@ -206,10 +202,6 @@ public class LinkedList
             }
         }
     }
-
-   /*********************************************************
-   End of added methods
-   *********************************************************/
    
     //nested class to define its iterator
     private class LinkedListIterator implements ListIterator
